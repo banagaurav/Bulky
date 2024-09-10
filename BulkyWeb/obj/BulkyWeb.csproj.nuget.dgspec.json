@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Code\\C#\\project_base\\Bulky\\Bulky.csproj": {}
+    "D:\\Code\\C#\\project_base\\BulkyWeb\\BulkyWeb.csproj": {}
   },
   "projects": {
-    "D:\\Code\\C#\\project_base\\Bulky\\Bulky.csproj": {
+    "D:\\Code\\C#\\project_base\\BulkyWeb\\BulkyWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\C#\\project_base\\Bulky\\Bulky.csproj",
-        "projectName": "Bulky",
-        "projectPath": "D:\\Code\\C#\\project_base\\Bulky\\Bulky.csproj",
+        "projectUniqueName": "D:\\Code\\C#\\project_base\\BulkyWeb\\BulkyWeb.csproj",
+        "projectName": "BulkyWeb",
+        "projectPath": "D:\\Code\\C#\\project_base\\BulkyWeb\\BulkyWeb.csproj",
         "packagesPath": "C:\\Users\\Saturday\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\C#\\project_base\\Bulky\\obj\\",
+        "outputPath": "D:\\Code\\C#\\project_base\\BulkyWeb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Saturday\\AppData\\Roaming\\NuGet\\NuGet.Config",
