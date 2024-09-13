@@ -27,11 +27,16 @@ namespace BulkyWeb.Controllers
             {
                 ModelState.AddModelError("name", "The DisplayOrder cannot exactly match Name.");
             }
+            //Error need to be solved
+            // if (obj.Name.ToLower() == "test")
+            // {
+            //     ModelState.AddModelError("", "Test is an invalid value.");
+            // }
             if (ModelState.IsValid)
             {
                 _db.Categories.Add(obj);
                 _db.SaveChanges();
-                return RedirectToAction("Index", "Category");
+                return RedirectToAction("Index");
             }
             return View();
         }
