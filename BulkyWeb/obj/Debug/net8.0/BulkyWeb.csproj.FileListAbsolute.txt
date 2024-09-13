@@ -135,3 +135,4 @@ D:\Code\C#\project_base\BulkyWeb\obj\Debug\net8.0\refint\BulkyWeb.dll
 D:\Code\C#\project_base\BulkyWeb\obj\Debug\net8.0\BulkyWeb.pdb
 D:\Code\C#\project_base\BulkyWeb\obj\Debug\net8.0\BulkyWeb.genruntimeconfig.cache
 D:\Code\C#\project_base\BulkyWeb\obj\Debug\net8.0\ref\BulkyWeb.dll
+D:\Code\C#\project_base\BulkyWeb\bin\Debug\net8.0\System.Text.Json.dll
