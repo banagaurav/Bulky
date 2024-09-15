@@ -23,10 +23,10 @@ namespace BulkyWeb.Controllers
         [HttpPost]
         public IActionResult Create(Category obj)
         {
-            // if (obj.Name == obj.DisplayOrder.ToString())
-            // {
-            //     ModelState.AddModelError("name", "The DisplayOrder cannot exactly match Name.");
-            // }
+            if (obj.Name == obj.DisplayOrder.ToString())
+            {
+                ModelState.AddModelError("name", "The DisplayOrder cannot exactly match Name.");
+            }
             //Error need to be solved
             // if (obj.Name.ToLower() == "test")
             // {
