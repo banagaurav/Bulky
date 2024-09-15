@@ -1,0 +1,1 @@
+TempData: temp data was created in dotnet with a sole purpose if you have to display a notification on the next page then you add some value in temp data.
