@@ -1,1 +1,3 @@
-TempData: temp data was created in dotnet with a sole purpose if you have to display a notification on the next page then you add some value in temp data.
+TempData[] : TempData was created in dotnet with a sole purpose if you have to display a notification on the next page then you add some value in temp data.
+
+Migration : Migrations in .NET (using Entity Framework) automate and manage changes to the database schema as the application evolves. They ensure consistency across environments, track schema changes in version control, and save time by generating scripts automatically, making it easier to keep the database in sync with the application's code. -Chatgpt
