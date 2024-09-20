@@ -1,16 +1,8 @@
 using System;
-using System.Collection.Generic;
-using System.linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Bulky.Utility
+namespace Bulky.Utility;
+
+public class SD
 {
-    public static class SD
-    {
 
-    }
 }
-
-
-
