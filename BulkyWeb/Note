@@ -1,4 +1,5 @@
 appsettings.json : all the secrets and connection string goes in here.
 
-
 all the properties in a model class is basically the columns that we want in our database.
+
+to add table in database we need to do migration ef core.
