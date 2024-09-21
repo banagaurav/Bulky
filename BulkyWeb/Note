@@ -1,1 +1,4 @@
-appsettings.json : all the secrets like connection, links goes in here.
+appsettings.json : all the secrets and connection string goes in here.
+
+
+all the properties in a model class is basically the columns that we want in our database.
