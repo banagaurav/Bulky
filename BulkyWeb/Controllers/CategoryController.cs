@@ -37,5 +37,66 @@ namespace BulkyWeb.Controllers
             }
             return View();
         }
+
+        public IActionResult Edit(int? id)
+        {
+            if (id == null || id == 0)
+            {
+                return NotFound();
+            }
+            //retrieving one of the category from the database
+            Category categoryFromDb = _db.Categories.Find(id); // finding particular category from db 
+            // Category categoryFromDb = _db.Categories.FirstOrDefault(u => u.Id==id); // will work even if the Id is not primary 
+            // Category categoryFromDb = _db.Categories.Where(u=> u.Id==id).FirstOrDefault(); // finding particular category from db 
+
+            if (categoryFromDb == null)
+            {
+                return NotFound();
+            }
+            return View(categoryFromDb);
+        }
+
+        [HttpPost]
+        public IActionResult Edit(Category obj)
+        {
+            if (ModelState.IsValid)
+            {
+                _db.Categories.Update(obj);
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View();
+        }
+
+        public IActionResult Delete(int? id)
+        {
+            if (id == null || id == 0)
+            {
+                return NotFound();
+            }
+            //retrieving one of the category from the database
+            Category categoryFromDb = _db.Categories.Find(id); // finding particular category from db 
+            // Category categoryFromDb = _db.Categories.FirstOrDefault(u => u.Id==id); // will work even if the Id is not primary 
+            // Category categoryFromDb = _db.Categories.Where(u=> u.Id==id).FirstOrDefault(); // finding particular category from db 
+
+            if (categoryFromDb == null)
+            {
+                return NotFound();
+            }
+            return View(categoryFromDb);
+        }
+
+        [HttpPost, ActionName("Delete")]
+        public IActionResult DeletePost(int? id)
+        {
+            Category obj = _db.Categories.Find(id);
+            if (obj == null)
+            {
+                return NotFound();
+            }
+            _db.Categories.Remove(obj);
+            _db.SaveChanges();
+            return RedirectToAction("Index");
+        }
     }
 }

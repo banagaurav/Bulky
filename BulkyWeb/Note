@@ -13,3 +13,8 @@ return RedirectToAction("actionName","controllerName");
 
 ModelState represents the state of the model binding process, which is used to validate and handle data coming from HTTP requests (like forms or JSON). It is a part of the Microsoft.AspNetCore.Mvc.ModelBinding namespace and plays a key role in determining whether the data sent to an action method is valid.
 & IsValid is simply a condition.
+
+a asp-controller="Category" asp-action="Edit" asp-route-id="@obj.Id"
+class="btn btn-primary mx-2" // in this asp-route-id is to pass the id to the controller. tag-helper systax asp-route-/_anyname_/ = "@obj.\*\*"
+
+if the action method has same name and parameter , we have to change name of post method and fo example if the action method name is delete .we have to explicitly tell here that name is delete for the endpoint in post method
