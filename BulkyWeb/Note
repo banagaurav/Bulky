@@ -11,4 +11,5 @@ public IActionResult \*\*\* (){ \* \*
 return RedirectToAction("actionName","controllerName");
 }
 
-ModelState.IsValid can be said as a condition for if condition which will check the model validation list & IsValid is simply a condition.
+ModelState represents the state of the model binding process, which is used to validate and handle data coming from HTTP requests (like forms or JSON). It is a part of the Microsoft.AspNetCore.Mvc.ModelBinding namespace and plays a key role in determining whether the data sent to an action method is valid.
+& IsValid is simply a condition.
