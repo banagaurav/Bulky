@@ -18,8 +18,8 @@ namespace BulkyWeb.Migrations
                 values: new object[,]
                 {
                     { 1, 1, "Action" },
-                    { 2, 2, "Action" },
-                    { 3, 3, "Action" }
+                    { 2, 2, "Scifie" },
+                    { 3, 3, "History" }
                 });
         }
 

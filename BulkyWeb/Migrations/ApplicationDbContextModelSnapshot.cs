@@ -51,13 +51,13 @@ namespace BulkyWeb.Migrations
                         {
                             Id = 2,
                             DisplayOrder = 2,
-                            Name = "Action"
+                            Name = "Scifie"
                         },
                         new
                         {
                             Id = 3,
                             DisplayOrder = 3,
-                            Name = "Action"
+                            Name = "History"
                         });
                 });
 #pragma warning restore 612, 618
