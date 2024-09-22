@@ -5,3 +5,10 @@ all the properties in a model class is basically the columns that we want in our
 to add table in database we need to do migration ef core.
 
 when creating HttpPost action we need to pass Model. So, when it is posted it will provide that form in the associated controller. And the obj has everything of that model.
+
+[HttpPost]
+public IActionResult \*\*\* (){ \* \*
+return RedirectToAction("actionName","controllerName");
+}
+
+ModelState.IsValid can be said as a condition for if condition which will check the model validation list & IsValid is simply a condition.
