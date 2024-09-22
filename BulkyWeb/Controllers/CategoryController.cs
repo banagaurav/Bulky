@@ -33,6 +33,7 @@ namespace BulkyWeb.Controllers
             {
                 _db.Categories.Add(obj);
                 _db.SaveChanges();
+                TempData["success"] = "Category created successfully";
                 return RedirectToAction("Index");
             }
             return View();
@@ -63,6 +64,7 @@ namespace BulkyWeb.Controllers
             {
                 _db.Categories.Update(obj);
                 _db.SaveChanges();
+                TempData["success"] = "Category edited successfully";
                 return RedirectToAction("Index");
             }
             return View();
@@ -74,11 +76,7 @@ namespace BulkyWeb.Controllers
             {
                 return NotFound();
             }
-            //retrieving one of the category from the database
             Category categoryFromDb = _db.Categories.Find(id); // finding particular category from db 
-            // Category categoryFromDb = _db.Categories.FirstOrDefault(u => u.Id==id); // will work even if the Id is not primary 
-            // Category categoryFromDb = _db.Categories.Where(u=> u.Id==id).FirstOrDefault(); // finding particular category from db 
-
             if (categoryFromDb == null)
             {
                 return NotFound();
@@ -96,6 +94,7 @@ namespace BulkyWeb.Controllers
             }
             _db.Categories.Remove(obj);
             _db.SaveChanges();
+            TempData["success"] = "Category deleted successfully";
             return RedirectToAction("Index");
         }
     }
