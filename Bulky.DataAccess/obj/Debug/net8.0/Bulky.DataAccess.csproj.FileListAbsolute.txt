@@ -1,0 +1,6 @@
+D:\Code\C#\project_base\Bulky.DataAccess\obj\Debug\net8.0\Bulky.DataAccess.csproj.AssemblyReference.cache
+D:\Code\C#\project_base\Bulky.DataAccess\obj\Debug\net8.0\Bulky.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\C#\project_base\Bulky.DataAccess\obj\Debug\net8.0\Bulky.DataAccess.AssemblyInfoInputs.cache
+D:\Code\C#\project_base\Bulky.DataAccess\obj\Debug\net8.0\Bulky.DataAccess.AssemblyInfo.cs
+D:\Code\C#\project_base\Bulky.DataAccess\obj\Debug\net8.0\Bulky.DataAccess.csproj.CoreCompileInputs.cache
+D:\Code\C#\project_base\Bulky.DataAccess\obj\Debug\net8.0\Bulky.DataAccess.sourcelink.json
