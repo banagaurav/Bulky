@@ -4,3 +4,17 @@ D:\Code\C#\project_base\Bulky.DataAccess\obj\Debug\net8.0\Bulky.DataAccess.Assem
 D:\Code\C#\project_base\Bulky.DataAccess\obj\Debug\net8.0\Bulky.DataAccess.AssemblyInfo.cs
 D:\Code\C#\project_base\Bulky.DataAccess\obj\Debug\net8.0\Bulky.DataAccess.csproj.CoreCompileInputs.cache
 D:\Code\C#\project_base\Bulky.DataAccess\obj\Debug\net8.0\Bulky.DataAccess.sourcelink.json
+D:\Code\C#\project_base\Bulky.DataAccess\bin\Debug\net8.0\Bulky.DataAccess.deps.json
+D:\Code\C#\project_base\Bulky.DataAccess\bin\Debug\net8.0\Bulky.DataAccess.runtimeconfig.json
+D:\Code\C#\project_base\Bulky.DataAccess\bin\Debug\net8.0\Bulky.DataAccess.dll
+D:\Code\C#\project_base\Bulky.DataAccess\bin\Debug\net8.0\Bulky.DataAccess.pdb
+D:\Code\C#\project_base\Bulky.DataAccess\bin\Debug\net8.0\Bulky.Models.dll
+D:\Code\C#\project_base\Bulky.DataAccess\bin\Debug\net8.0\Bulky.Utility.dll
+D:\Code\C#\project_base\Bulky.DataAccess\bin\Debug\net8.0\Bulky.Models.pdb
+D:\Code\C#\project_base\Bulky.DataAccess\bin\Debug\net8.0\Bulky.Utility.pdb
+D:\Code\C#\project_base\Bulky.DataAccess\obj\Debug\net8.0\Bulky.Da.6DBD1FC4.Up2Date
+D:\Code\C#\project_base\Bulky.DataAccess\obj\Debug\net8.0\Bulky.DataAccess.dll
+D:\Code\C#\project_base\Bulky.DataAccess\obj\Debug\net8.0\refint\Bulky.DataAccess.dll
+D:\Code\C#\project_base\Bulky.DataAccess\obj\Debug\net8.0\Bulky.DataAccess.pdb
+D:\Code\C#\project_base\Bulky.DataAccess\obj\Debug\net8.0\Bulky.DataAccess.genruntimeconfig.cache
+D:\Code\C#\project_base\Bulky.DataAccess\obj\Debug\net8.0\ref\Bulky.DataAccess.dll
